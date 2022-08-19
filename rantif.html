@@ -1,0 +1,201 @@
+<!-- Atur posisi sesuai keinginan dengan cara memberikan class (atas, tengah, atau bawah) seperti contoh di bawah default atas -->
+<div class='gila_temax_looping atas'>
+  <!-- Content 1 -->
+  <div class='looping_ad_wrap'>
+    <div class='head_left'>
+      <div class='thumb'>
+        <!-- Atur Gambar sesuai keinginan-->
+        <img alt='Image' src='MASUKKAN_URL_GAMBAR_DISINI'/>
+      </div>
+      <div class='description'>
+        <!-- Atur Judul sesuai keinginan-->
+        <span>TULIS JUDUL DISINI</span>
+        <!-- Atur Deskripsi sesuai keinginan -->
+        <p>TULIS DESKRIPSI DISINI</p>
+      </div>
+    </div>
+    <div class='head_right'>
+      <!-- Atur Link sesuai keinginan -->
+      <a class='link_button' href='MASUKKAN_LINK_TUJUAN_DISINI'>
+        TULIS NAMA TOMBOL DISINI
+      </a>
+      <div class='close_button'>
+        <svg viewBox='0 0 24 24'>
+          <path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Content 2 -->
+  <div class='looping_ad_wrap'>
+    <div class='head_left'>
+      <div class='thumb'>
+        <!-- Atur Gambar sesuai keinginan-->
+        <img alt='Image' src='MASUKKAN_URL_GAMBAR_DISINI'/>
+      </div>
+      <div class='description'>
+        <!-- Atur Judul sesuai keinginan-->
+        <span>TULIS JUDUL DISINI</span>
+        <!-- Atur Deskripsi sesuai keinginan -->
+        <p>TULIS DESKRIPSI DISINI</p>
+      </div>
+    </div>
+    <div class='head_right'>
+      <!-- Atur Link sesuai keinginan -->
+      <a class='link_button' href='MASUKKAN_LINK_TUJUAN_DISINI'>
+        TULIS NAMA TOMBOL DISINI
+      </a>
+      <div class='close_button'>
+        <svg viewBox='0 0 24 24'>
+          <path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content 3 -->
+  <div class='looping_ad_wrap'>
+    <div class='head_left'>
+      <div class='thumb'>
+        <!-- Atur Gambar sesuai keinginan-->
+        <img alt='Image' src='MASUKKAN_URL_GAMBAR_DISINI'/>
+      </div>
+      <div class='description'>
+        <!-- Atur Judul sesuai keinginan-->
+        <span>TULIS JUDUL DISINI</span>
+        <!-- Atur Deskripsi sesuai keinginan -->
+        <p>TULIS DESKRIPSI DISINI</p>
+      </div>
+    </div>
+    <div class='head_right'>
+      <!-- Atur Link sesuai keinginan -->
+      <a class='link_button' href='MASUKKAN_LINK_TUJUAN_DISINI'>
+        TULIS NAMA TOMBOL DISINI
+      </a>
+      <div class='close_button'>
+        <svg viewBox='0 0 24 24'>
+          <path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .looping_ad_wrap {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    background-color:#fff;
+    box-shadow:rgb(0 0 0 / 10%) 0px 2px 10px 0px;
+    border-radius:8px;
+    max-width:450px;
+    z-index:9999;
+    padding:15px;
+    transition:all .5s ease;
+  }
+  .gila_temax_looping.atas .looping_ad_wrap {
+    top:15px;
+    right:15px;
+    transform:translateY(-300px);
+  }
+  .gila_temax_looping.atas .looping_ad_wrap.active {
+    transform:translateY(0);
+  }
+  .gila_temax_looping.tengah .looping_ad_wrap {
+    top:50%;
+    right:15px;
+    transform:translate(500px, -50%);
+  }
+  .gila_temax_looping.tengah .looping_ad_wrap.active {
+    transform:translateY(-50%);
+  }
+  .gila_temax_looping.bawah .looping_ad_wrap {
+    bottom:15px;
+    right:15px;
+    transform:translateY(300px);
+  }
+  .gila_temax_looping.bawah .looping_ad_wrap.active {
+    transform:translateY(0);
+  }
+  .looping_ad_wrap .head_left {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:100%;
+  }
+  .looping_ad_wrap .head_left .thumb img {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+  }
+  .looping_ad_wrap .head_left .description span {
+    display:block;
+    font-size:16px;
+    font-weight:700;
+    color:#000;
+    margin-bottom:3px;
+  }
+  .looping_ad_wrap .head_left .description p {
+    font-size:14px;
+    color:#5f6368;
+    margin:0;
+  }
+  .looping_ad_wrap .head_right .link_button {
+    display:block;
+    background-color:#1a73e8;
+    color:#fff;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    white-space:nowrap;
+    padding:10px 15px;
+  }
+  .looping_ad_wrap .head_right .close_button {
+    position:absolute;
+    top:5px;
+    right:5px;
+    line-height:0;
+    cursor:pointer;
+  }
+  .looping_ad_wrap .head_right .close_button svg {
+    width:15px;
+    height:15px;
+    fill:#000;
+  }
+  @media screen and (max-width:480px) {
+    .gila_temax_looping.atas .looping_ad_wrap, .gila_temax_looping.tengah .looping_ad_wrap, .gila_temax_looping.bawah .looping_ad_wrap {
+      right:0;
+      left:0;
+      margin:0 15px;
+    }
+    .looping_ad_wrap {
+      flex-direction:column;
+    }
+    .looping_ad_wrap .head_right {
+      place-self:end;
+    }
+  }
+</style>
+
+<script>
+$(function() {
+  var $anchors = $('.gila_temax_looping .looping_ad_wrap');
+
+  (function loop_element(idx) {
+    $anchors.removeClass('active').eq(idx).addClass('active');
+    setTimeout(function () {
+      loop_element((idx + 1) % $anchors.length);
+    }, 3000); // Atur waktu sesuai keinginan dengan format (1000 = 1 detik)
+  }(0));
+
+  // Close Button
+  $('.close_button').click(function(){
+    $('.looping_ad_wrap.active').remove();
+  });
+});
+</script>
