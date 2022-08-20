@@ -7,19 +7,19 @@ function js_thml(){
   code += '\t<div class=\'head_left\'>\n';
   code += '\t  <div class=\'thumb\'>\n';
   code += '\t\t<!-- Atur Gambar sesuai keinginan-->\n';
-  code += '\t\t<img alt=\'Image\' src=\'MASUKKAN_URL_GAMBAR_DISINI\'/>\n';
+  code += '\t\t<img alt=\'Image\' src=\'https://cf.shopee.co.id/file/2d9fe396f11f6c21a6eca8f12c18a278\'/>\n';
   code += '\t  </div>\n';
   code += '\t  <div class=\'description\'>\n';
   code += '\t\t<!-- Atur Judul sesuai keinginan-->\n';
-  code += '\t\t<span>TULIS JUDUL DISINI</span>\n';
+  code += '\t\t<span>Sepatu Futsal Joss</span>\n';
   code += '\t\t<!-- Atur Deskripsi sesuai keinginan -->\n';
-  code += '\t\t<p>TULIS DESKRIPSI DISINI</p>\n';
+  code += '\t\t<p>Buruan Lagi Diskon</p>\n';
   code += '\t  </div>\n';
   code += '\t</div>\n';
   code += '\t<div class=\'head_right\'>\n';
   code += '\t  <!-- Atur Link sesuai keinginan -->\n';
-  code += '\t  <a class=\'link_button\' href=\'MASUKKAN_LINK_TUJUAN_DISINI\'>\n';
-  code += '\t\tTULIS NAMA TOMBOL DISINI\n';
+  code += '\t  <a class=\'link_button\' href=\'https://shopee.co.id/sepatu-futsal-terbaru-2022-spesifikasi-futsal-REXBIC-100-ORI-i.720848402.12193591748\'>\n';
+  code += '\t\tPROMO\n';
   code += '\t  </a>\n';
   code += '\t  <div class=\'close_button\'>\n';
   code += '\t\t<svg viewBox=\'0 0 24 24\'>\n';
@@ -35,19 +35,19 @@ function js_thml(){
   code += '\t<div class=\'head_left\'>\n';
   code += '\t  <div class=\'thumb\'>\n';
   code += '\t\t<!-- Atur Gambar sesuai keinginan-->\n';
-  code += '\t\t<img alt=\'Image\' src=\'MASUKKAN_URL_GAMBAR_DISINI\'/>\n';
+  code += '\t\t<img alt=\'Image\' src=\'https://cf.shopee.co.id/file/088dfde2f79b0fb8b70bcb9159c578c6\'/>\n';
   code += '\t  </div>\n';
   code += '\t  <div class=\'description\'>\n';
   code += '\t\t<!-- Atur Judul sesuai keinginan-->\n';
-  code += '\t\t<span>TULIS JUDUL DISINI</span>\n';
+  code += '\t\t<span>Kaos Bola Murah</span>\n';
   code += '\t\t<!-- Atur Deskripsi sesuai keinginan -->\n';
-  code += '\t\t<p>TULIS DESKRIPSI DISINI</p>\n';
+  code += '\t\t<p>Termurah Sedunia Bestie</p>\n';
   code += '\t  </div>\n';
   code += '\t</div>\n';
   code += '\t<div class=\'head_right\'>\n';
   code += '\t  <!-- Atur Link sesuai keinginan -->\n';
-  code += '\t  <a class=\'link_button\' href=\'MASUKKAN_LINK_TUJUAN_DISINI\'>\n';
-  code += '\t\tTULIS NAMA TOMBOL DISINI\n';
+  code += '\t  <a class=\'link_button\' href=\'https://shopee.co.id/kaos-bola-atau-baju-bola-junior-umur-7-tahun-s-d-13tahun-i.282775515.6078905976\'>\n';
+  code += '\t\tPROMO\n';
   code += '\t  </a>\n';
   code += '\t  <div class=\'close_button\'>\n';
   code += '\t\t<svg viewBox=\'0 0 24 24\'>\n';
@@ -63,19 +63,19 @@ function js_thml(){
   code += '\t<div class=\'head_left\'>\n';
   code += '\t  <div class=\'thumb\'>\n';
   code += '\t\t<!-- Atur Gambar sesuai keinginan-->\n';
-  code += '\t\t<img alt=\'Image\' src=\'MASUKKAN_URL_GAMBAR_DISINI\'/>\n';
+  code += '\t\t<img alt=\'Image\' src=\'https://cf.shopee.co.id/file/77f89d22f356634263c5d0fc1d0659e0\'/>\n';
   code += '\t  </div>\n';
   code += '\t  <div class=\'description\'>\n';
   code += '\t\t<!-- Atur Judul sesuai keinginan-->\n';
-  code += '\t\t<span>TULIS JUDUL DISINI</span>\n';
+  code += '\t\t<span>Hijab Muslim</span>\n';
   code += '\t\t<!-- Atur Deskripsi sesuai keinginan -->\n';
-  code += '\t\t<p>TULIS DESKRIPSI DISINI</p>\n';
+  code += '\t\t<p>Harga Dikon Boss</p>\n';
   code += '\t  </div>\n';
   code += '\t</div>\n';
   code += '\t<div class=\'head_right\'>\n';
   code += '\t  <!-- Atur Link sesuai keinginan -->\n';
-  code += '\t  <a class=\'link_button\' href=\'MASUKKAN_LINK_TUJUAN_DISINI\'>\n';
-  code += '\t\tTULIS NAMA TOMBOL DISINI\n';
+  code += '\t  <a class=\'link_button\' href=\'https://shopee.co.id/HIJAB-SPORTY-JERSEY-WANITA-SPANDEX-SPORTY-INSTAN-VOLLY-BADMINTON-BASKET-FUTSAL-BY-KALISHA-OFFICIAL-i.301300722.8225999530\'>\n';
+  code += '\t\tPROMO\n';
   code += '\t  </a>\n';
   code += '\t  <div class=\'close_button\'>\n';
   code += '\t\t<svg viewBox=\'0 0 24 24\'>\n';
@@ -153,7 +153,7 @@ $(function() {
     $anchors.removeClass('active').eq(idx).addClass('active');
     setTimeout(function () {
       loop_element((idx + 1) % $anchors.length);
-    }, 3000); // Atur waktu sesuai keinginan dengan format (1000 = 1 detik)
+    }, 5000); // Atur waktu sesuai keinginan dengan format (1000 = 1 detik)
   }(0));
 });
 
